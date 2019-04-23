@@ -1,0 +1,37 @@
+@import "../../variables.scss";
+
+:host {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    background-color: $card-bg;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+
+
+    h1,
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .text {
+        overflow-y: scroll;
+
+        p {
+            // flex-grow: 2;
+            margin-bottom: 20px;
+        }
+
+    }
+
+
+    button {
+        padding: 20px;
+        background-color: $tertiary;
+        border-radius: 20px;
+        border: none;
+        font-size: 2em;
+    }
+}
